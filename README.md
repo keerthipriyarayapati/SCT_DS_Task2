@@ -1,11 +1,9 @@
-### SCT_DS_Task2
+## SCT_DS_Task2
 
-#### Project Title: Data Cleaning and Exploratory Data Analysis(EDA)
-
-#### Description:
+### Project Title: Data Cleaning and Exploratory Data Analysis(EDA)
+### Description:
 This repository contains the analysis of the Titanic dataset. The goal is to explore, clean, and visualize the dataset to understand key factors influencing passenger survival.
-
-#### Objectives:
+### Objectives:
 Load and explore the Titanic dataset
 
 Handle missing data (Age, Cabin, Embarked)
@@ -13,8 +11,7 @@ Handle missing data (Age, Cabin, Embarked)
 Preprocess and clean the dataset
 
 Perform exploratory data analysis (EDA)
-
-##### Identify survival patterns based on:
+#### Identify survival patterns based on:
 -Gender
 
 -Passenger class
@@ -24,8 +21,7 @@ Perform exploratory data analysis (EDA)
 -Fare
 
 -Embarked port
-
-#### Key Visualizations- by using Matplotlib and Seaborn
+### Key Visualizations- by using Matplotlib and Seaborn
 Survival count plot (Survived vs Died)
 
 Survival by Gender
@@ -47,8 +43,7 @@ Correlation heatmap
 Survival by Embarked Port
 
 Survival by Family size
-
-####  Data Cleaning Steps
+### Data Cleaning Steps:
 Imputed missing Age values using median
 
 Filled missing Embarked values using mode
@@ -56,8 +51,7 @@ Filled missing Embarked values using mode
 Dropped Cabin column due to high missing values
 
 Converted categorical variables into numeric formats where required
-
-#### Key Findings
+### Key Findings:
 Gender: Females had higher survival rates than males
 
 Passenger Class (Pclass): Higher-class passengers had better chances of survival
@@ -67,8 +61,7 @@ Fare: Higher fare correlated with higher survival probability
 Age: Children and young adults had slightly higher survival rates
 
 Embarked Port: Passengers from certain ports had higher survival
-
-#### Tools and Libraries Used
+### Tools and Libraries Used:
 Python
 
 Pandas
@@ -80,17 +73,15 @@ Matplotlib
 Seaborn
 
 Google Colab
+### Files in Repository:
+1.```SCT_DS_2_.ipynb``` — Complete code, analysis, and visualizations
 
-#### Files in Repository
+2.requirements.txt
 
-```SCT_DS_2_.ipynb``` — Complete code, analysis, and visualizations
-
-requirements.txt
-
-README.md
-
-#### Requirements Install dependencies using: ```pip install -r requirements.txt``` 
-##### Recommended versions (for reproducibility):
+3.README.md
+### Requirements Install dependencies using: 
+```pip install -r requirements.txt``` 
+#### Recommended versions (for reproducibility):
 pandas >= 1.5.0
 
 numpy >= 1.25.0
@@ -98,11 +89,10 @@ numpy >= 1.25.0
 seaborn >= 0.12.0
 
 matplotlib >= 3.7.0
-
-#### Dataset
+### Dataset
 1. Titanic Dataset on Kaggle
 2. Ensure train.csv and test.csv are placed in the notebook folder before running the analysis
-#### How to Run
+### How to Run
 1. Clone the Repository
 ```git clone https://github.com/keerthipriyarayapati/SCT_DS_Task2.git```
 2. Install dependencies

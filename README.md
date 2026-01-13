@@ -89,8 +89,7 @@ requirements.txt
 
 README.md
 
-#### Requirements Install dependencies using: 
-```pip install -r requirements.txt``` 
+#### Requirements Install dependencies using: ```pip install -r requirements.txt``` 
 ##### Recommended versions (for reproducibility):
 pandas >= 1.5.0
 
@@ -105,7 +104,7 @@ matplotlib >= 3.7.0
 2. Ensure train.csv and test.csv are placed in the notebook folder before running the analysis
 #### How to Run
 1. Clone the Repository
-``` ```
+```git clone https://github.com/keerthipriyarayapati/SCT_DS_Task2.git```
 2. Install dependencies
 ```pip install -r requirements.txt```
 3. Open ```SCT_DS_2.ipynb``` in Jupyter Notebook or Google Colab
